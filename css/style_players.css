@@ -80,3 +80,22 @@ body {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
+/* Image  caption alignment */
+figcaption {
+  text-align: center;
+  padding: 10px;
+}
+
+/* Image in grid */
+figure{
+  display: inline-block;
+  margin: 1em 40px;
+  padding-top: 30px;
+}
+
+/* Image gets zoomed on hover */
+figure:hover{
+  transform: scale(1.3);
+  transition: 0.5s;
+}
