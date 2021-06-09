@@ -16,13 +16,6 @@ body {
   opacity: 0.90;
 }
 
-.body .logo{
-  position: absolute;
-  left: 43%;
-  padding: 25px;
-  margin: 25px;
-}
-
 .navbar {
   overflow: hidden;
   background-color: black;
