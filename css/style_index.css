@@ -1,17 +1,23 @@
+/* stylesheet for index.html */
+
+/* background image */
 body {
-  background-image: url("/home/dexter/Documents/html projects/real/club/1.jpg");
+  background-image: url("/home/dexter/Documents/html_projects/real/club/1.jpg");
   align: center;
 }
 
+/* style the link color */
 a{
   text-decoration: none;
   color: black;
 }
 
+/* style the link when hovered */
 a:hover{
   color: red;
 }
 
+/* heading text is centered with proper padding and margin with added transparancy */
 .body h1 {
   color: black;
   font: normal 80px Arial sans-serif;
@@ -20,8 +26,10 @@ a:hover{
   padding: 10px;
   background-color: lightgrey;
   border-radius:  15px;
+  opacity: 0.90;
 }
 
+/* body text is centered with proper padding and margin with added transparancy */
 .body .intro{
   width: 80%;
   background-color: lightgrey;
@@ -31,32 +39,79 @@ a:hover{
   padding: 20px;
   border-radius:  15px;
   margin: 200px auto 0;
+  opacity: 0.8;
 }
 
+/* Position of club logo is adjusted */
 .body .logo{
   position: absolute;
-  left: 45%;
+  left: 43%;
+  padding: 25px;
+  margin: 25px;
 }
 
-.list {
-  width: 80%;
-  margin: auto;
-  border: 1px white solid;
-  background-color: lightgrey;
-  padding: 20px;
-  border-radius:  15px;
+/* Navigation bar container */
+.navbar {
+  overflow: hidden;
+  background-color: black;
+  font-family: Arial;
+  opacity: 0.85;
 }
 
-.list h3{
+/* Links inside the Navigation bar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: black;
+}
+
+/* Add a background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: darkblue;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 140px;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
   text-align: left;
 }
 
-.list ul{
-  padding: 10px;
-  list-style: none;
+/* Add a background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: lightgrey;
 }
 
-.list li{
-  padding-bottom: 8px;
-  border-bottom: dotted 1px #333;
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
 }
