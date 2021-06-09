@@ -1,0 +1,89 @@
+
+body {
+  background-color: lightgrey;
+  align: center;
+}
+
+
+.body h1 {
+  color: black;
+  font: normal 80px Arial sans-serif;
+  text-align: center;
+  margin: auto;
+  padding: 10px;
+  background-color: lightgrey;
+  border-radius:  15px;
+  opacity: 0.90;
+}
+
+.body .logo{
+  position: absolute;
+  left: 43%;
+  padding: 25px;
+  margin: 25px;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: black;
+  font-family: Arial;
+  opacity: 0.85;
+}
+
+/* Links inside the Navigation bar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: black;
+}
+
+/* Add a background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: darkblue;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 140px;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: lightgrey;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
