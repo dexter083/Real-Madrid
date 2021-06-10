@@ -53,5 +53,3 @@ This is an descriptive website design which contains information about first tea
 ## Author Info
 
 - LinkedIn - [Mohit Saini](https://www.linkedin.com/in/mohitsaini083/)
-
-[Back To The Top](#read-me-template)
