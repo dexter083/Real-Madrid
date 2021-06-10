@@ -13,6 +13,7 @@ You're sections headers will be used to reference location of destination.
 ---
 
 ## Description
+[Back to top](#real-madrid--the-club-of-the-century)
 
 This website is designed to showcase HTML and CSS concepts.
 This is an descriptive website design which contains information about first team of the club.
@@ -24,6 +25,8 @@ This is an descriptive website design which contains information about first tea
 
 ---
 ## Preview
+[Back to top](#real-madrid--the-club-of-the-century)
+
 ![Home](preview/home.jpg)
 ---
 ![Player Selection Page](preview/player_selection_page.jpg)
@@ -33,6 +36,7 @@ This is an descriptive website design which contains information about first tea
 ---
 
 ## How To Use
+[Back to top](#real-madrid--the-club-of-the-century)
 
 ### How to download
 
@@ -43,7 +47,7 @@ This is an descriptive website design which contains information about first tea
 - Type ``git clone``, and then type https://github.com/dexter083/real-madrid.git.
 - Press **Enter** to create your local clone.
 
-#### How to open.
+#### How to open. [Back to top](#real-madrid--the-club-of-the-century)
 - Open the folder.
 - Click on index.html to view the home page
 - Feel free to navigate around.
