@@ -7,7 +7,7 @@ You're sections headers will be used to reference location of destination.
 
 - [Description](#description)
 - [Preview](#preview)
-- [Back to top](#real-madrid--the-club-of-the-century)
+- [How To Use](#how-to-use)
 - [Author Info](#author-info)
 
 ---
