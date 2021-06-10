@@ -6,8 +6,8 @@
 You're sections headers will be used to reference location of destination.
 
 - [Description](#description)
-- [How To Use](#how-to-use)
 - [Preview](#preview)
+- [Back to top](#real-madrid--the-club-of-the-century)
 - [Author Info](#author-info)
 
 ---
