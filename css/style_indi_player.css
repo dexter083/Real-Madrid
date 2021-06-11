@@ -77,19 +77,25 @@ body {
 
 /* Styling of player info table */
 .ptable {
+  background-color: lightgrey;
   position: absolute;
   border: 1px solid black;
-  top: 250px;
-  left: 100px;
+  top: 45%;
+  left: 10%;
   box-shadow: 5px 10px;
+  opacity: 0.8;
 }
 
 /* Styling of Name */
 .pname {
   color: black;
-  font: normal 35px Arial sans-serif;
+  padding: none;
+  background-color: lightgrey;
+  opacity: 0.85;
+  border-radius:  25px;
+  font: normal 25px Arial sans-serif;
   text-align: center;
   position: absolute;
-  top: 115px;
-  left: 100px;
+  top: 20%;
+  left: 10%;
 }
