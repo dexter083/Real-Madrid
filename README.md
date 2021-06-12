@@ -29,9 +29,14 @@ This is an descriptive website design which contains information about first tea
 
 ![Home](preview/home.jpg)
 ---
-![Player Selection Page](preview/player_selection_page.jpg)
+![Club Honor Page](preview/honors_page.jpg)
 ---
-![Player Information Page](preview/individual_player_info_page.jpg)
+![Club Legend Page](preview/club_legend.jpg)
+---
+![Player Selection Page](preview/player_selection.jpg)
+---
+![Player Information Page](preview/player_info.jpg)
+---
 
 ---
 

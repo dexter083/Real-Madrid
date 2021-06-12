@@ -1,9 +1,9 @@
-/* stylesheet for index.html */
-
 /* background image */
 body {
-  background-image: url("img/bg.jpg");
+  background-image: url("../img/bg/bg.jpg");
   align: center;
+  background-size: auto;
+  background-repeat: no-repeat;
 }
 
 /* style the link color */
@@ -92,7 +92,7 @@ a:hover{
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: white;
+  background-color: skyblue;
   min-width: 140px;
 }
 
