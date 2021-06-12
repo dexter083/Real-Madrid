@@ -70,29 +70,6 @@ body {
   display: block;
 }
 
-/* Table's rows */
-.ptable th, td {
-  padding: 15px;
-  text-align: left;
-}
-
-/* Player's image */
-.photo{
-  position: absolute;
-  top: 45%;
-  right: 10%;
-}
-
-/* Player info table */
-.ptable {
-  background-color: lightgrey;
-  position: absolute;
-  top: 30%;
-  left: 10%;
-  margin: 5%;
-}
-
-/* Player's name */
 .pname {
   color: black;
   padding: none;
@@ -101,4 +78,17 @@ body {
   position: absolute;
   top: 10%;
   left: 40%;
+}
+
+.player{
+  display: flex;
+  margin:10%;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.ptable th, td {
+  padding: 15px;
+  text-align: left;
 }

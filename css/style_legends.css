@@ -17,27 +17,15 @@ body {
 }
 
 
-/* Club legend information*/
-.body .intro{
-  width: 40%;
-  background-color: lightgrey;
-  color: black;
-  font: normal 16px Arial sans-serif;
-  line-height: 1.6em;
-  padding: 20px;
-  border-radius:  15px;
-  margin: 5%;
-}
-
-/* Club legend photo*/
-.photo{
-  position: absolute;
-  top: 45%;
-  right: 10%;
+.container{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 /* Club legend name in text box*/
-.body .intro .lname{
+.lname{
   color: black;
   padding: none;
   font: normal 30px Arial sans-serif;
@@ -45,11 +33,15 @@ body {
 }
 
 /* Club legend duration in club in text box*/
-.body .intro .year{
+.year{
   color: black;
   padding: none;
   font: normal 25px Arial sans-serif;
   text-align: center;
+}
+
+.intro{
+  margin:0 10% 10% 10%;
 }
 
 
