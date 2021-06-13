@@ -1,8 +1,6 @@
 /* background color */
 body {
   background-color: lightgrey;
-  align: center;
-
 }
 
 /* Color of selection links */
@@ -22,7 +20,7 @@ a:hover {
   font: normal 80px Arial sans-serif;
   text-align: center;
   margin: auto;
-  padding: 10px; 
+  padding: 10px;
   border-radius:  15px;
   opacity: 0.90;
 }
