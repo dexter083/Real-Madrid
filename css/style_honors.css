@@ -95,13 +95,3 @@ body {
   text-align: center;
   font-size: 16px;
 }
-
-.htable th{
-  background-color: darkblue;
-  color: white;
-
-}
-
-.htable tbody tr:nth-child(even){
-  background-color: white;
-}
